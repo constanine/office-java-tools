@@ -1,0 +1,179 @@
+{
+	"headers": [{
+		"bookMark": "学生姓名_1",
+		"caption": "学生姓名",
+		"key": "data_1",
+		"record": "小明",
+		"type": "TEXT"
+	}, {
+		"bookMark": "班级_2",
+		"caption": "班级",
+		"key": "data_2",
+		"record": "二年级三班",
+		"type": "TEXT"
+	}, {
+		"bookMark": "学号_3",
+		"caption": "学号",
+		"key": "data_3",
+		"record": "1",
+		"type": "TEXT"
+	}, {
+		"bookMark": "学生评论_OP_4",
+		"caption": "学生评论内容",
+		"key": "show_4",
+		"record": "聪明好学,学习任重</br>为学习榜样",
+		"type": "SHOW"
+	}, 
+	{
+		"bookMark": "学生评论_OP_4",
+		"caption": "学生评论",
+		"key": "data_4",
+		"optionList": [{
+			"caption": "评论1",
+			"descr": "聪明好学,学习任重",
+			"key": "OP_1",
+			"type": "OPTION"
+		}, {
+			"caption": "评论2",
+			"descr": "活泼好动,忘准守课堂纪律",
+			"key": "OP_2",
+			"type": "OPTION"
+		}, {
+			"caption": "评论3",
+			"descr": "学习认真,做事认真",
+			"key": "OP_3",
+			"type": "OPTION"
+		}, {
+			"caption": "评论4",
+			"descr": "勤奋努力",
+			"key": "OP_4",
+			"type": "OPTION"
+		}],
+		"record": "OP_4",
+		"type": "COMOBOBOX"
+	}],
+	"tables": [{
+		"key": "dtl1",
+		"rowlist": [
+		{
+			"collist": [{
+				"caption": "科目",
+				"key": "tab_1_1",
+				"record": "英语"
+			}, {
+				"caption": "平时成绩",
+				"key": "tab_1_2",
+				"record": "88"
+			}, {
+				"caption": "期中测试",
+				"key": "tab_1_3",
+				"record": "92"
+			}, {
+				"caption": "期末测试",
+				"key": "tab_1_4",
+				"record": "90"
+			}, {
+				"caption": "综合积点",
+				"key": "tab_1_5",
+				"record": "4.0"
+			}, {
+				"caption": "editEnable",
+				"key": "editEnable",
+				"record": "1"
+			}],
+			"rowType": "DATAROW"
+		},{
+			"collist": [{
+				"caption": "科目",
+				"key": "tab_1_1",
+				"record": "语文"
+			}, {
+				"caption": "平时成绩",
+				"key": "tab_1_2",
+				"record": "78"
+			}, {
+				"caption": "期中测试",
+				"key": "tab_1_3",
+				"record": "82"
+			}, {
+				"caption": "期末测试",
+				"key": "tab_1_4",
+				"record": "80"
+			}, {
+				"caption": "综合积点",
+				"key": "tab_1_5",
+				"record": "3.0"
+			}, {
+				"caption": "editEnable",
+				"key": "editEnable",
+				"record": "1"
+			}],
+			"rowType": "DATAROW"
+		},{
+			"collist": [{
+				"caption": "科目",
+				"key": "tab_1_1",
+				"record": "数据"
+			}, {
+				"caption": "平时成绩",
+				"key": "tab_1_2",
+				"record": "95"
+			}, {
+				"caption": "期中测试",
+				"key": "tab_1_3",
+				"record": "92"
+			}, {
+				"caption": "期末测试",
+				"key": "tab_1_4",
+				"record": "90"
+			}, {
+				"caption": "综合积点",
+				"key": "tab_1_5",
+				"record": "4.1"
+			}, {
+				"caption": "editEnable",
+				"key": "editEnable",
+				"record": "1"
+			}],
+			"rowType": "DATAROW"
+		},{
+			"collist": [{
+				"caption": "科目",
+				"key": "tab_1_1",
+				"record": "自然常识"
+			}, {
+				"caption": "平时成绩",
+				"key": "tab_1_2",
+				"record": "83"
+			}, {
+				"caption": "期中测试",
+				"key": "tab_1_3",
+				"record": "82"
+			}, {
+				"caption": "期末测试",
+				"key": "tab_1_4",
+				"record": "80"
+			}, {
+				"caption": "综合积点",
+				"key": "tab_1_5",
+				"record": "3.2"
+			}, {
+				"caption": "editEnable",
+				"key": "editEnable",
+				"record": "1"
+			}],
+			"rowType": "DATAROW"
+		}, {
+			"collist": [{
+				"caption": "学期综合积点:",
+				"key": "fixTable_1_2_1",
+				"record": "3.7"
+			}, {
+				"caption": "editEnable",
+				"key": "editEnable",
+				"record": "1"
+			}],
+			"rowType": "FIXEDROW"
+		}]
+	}]
+}
