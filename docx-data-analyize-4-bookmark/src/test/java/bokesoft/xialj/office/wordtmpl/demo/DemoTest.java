@@ -27,7 +27,7 @@ public class DemoTest {
 	public static String parserDocx(String url) throws DocumentException, IOException, XmlException{
 		File tmplFile = new File(url);
 		String tmplFilePath = tmplFile.getAbsolutePath();
-		String jsonStr = OfficePOITools.readWordToJson(tmplFilePath, null, null);
+		String jsonStr = OfficePOITools.readWordToJson(tmplFilePath);
 		System.out.println(jsonStr);
 		return jsonStr;
 	}
@@ -39,7 +39,7 @@ public class DemoTest {
 		String targetFilePath = targetFile.getAbsolutePath();
 		String jsonStr = IOUtils.toString(new FileInputStream(new File(jsonPath)),"UTF-8");
 		BillUnit billUnit = JSON.parseObject(jsonStr, BillUnit.class);
-		OfficePOITools.writeWordToData(tmplFilePath, targetFilePath, billUnit);
+		OfficePOITools.writeWordToData(tmplFilePath, targetFilePath, billUnit,false);
 	}
 	
 	public static void writeDocxByJson2(String sourceUrl,String targetUrl,String jsonPath) throws Exception{
@@ -49,6 +49,6 @@ public class DemoTest {
 		String targetFilePath = targetFile.getAbsolutePath();
 		String jsonStr = IOUtils.toString(new FileInputStream(new File(jsonPath)),"UTF-8");
 		BillUnit billUnit = JSON.parseObject(jsonStr, BillUnit.class);
-		OfficePOITools.writeWordToData(tmplFilePath, targetFilePath, billUnit);
+		OfficePOITools.writeWordToData(tmplFilePath, targetFilePath, billUnit,false);
 	}
 }

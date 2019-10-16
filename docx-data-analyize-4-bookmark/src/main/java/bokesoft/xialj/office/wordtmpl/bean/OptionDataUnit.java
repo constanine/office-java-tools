@@ -1,6 +1,6 @@
 package bokesoft.xialj.office.wordtmpl.bean;
 
-public class OptionDataUnit extends ColumnUnit{
+public class OptionDataUnit extends ColumnUnit {
 	protected String descr;
 	
 	public String getDescr() {
@@ -9,5 +9,4 @@ public class OptionDataUnit extends ColumnUnit{
 	public void setDescr(String descr) {
 		this.descr = descr;
 	}
-	
 }

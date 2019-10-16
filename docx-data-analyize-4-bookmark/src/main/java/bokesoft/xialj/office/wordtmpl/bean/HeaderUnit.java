@@ -2,7 +2,7 @@ package bokesoft.xialj.office.wordtmpl.bean;
 
 import java.util.List;
 
-public class HeaderUnit extends ColumnUnit {
+public class HeaderUnit extends ComponentDataUnit {
 	/** 对应可能的 下拉选项结合 */
 	private List<OptionDataUnit> optionList;
 	/** 书签值 */

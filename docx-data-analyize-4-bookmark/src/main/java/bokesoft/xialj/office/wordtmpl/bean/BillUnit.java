@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * 单据元素
  */
-public class BillUnit{
+public class BillUnit {
 	/**
 	 * 头表元素
 	 */
