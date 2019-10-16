@@ -23,7 +23,7 @@ public class OfficePOITools {
 	
 	public static OfficePOITools INSTANCE = new OfficePOITools();
 
-	public static String readWordToJson(String inputUrl)
+	public String readWordToJson(String inputUrl)
 			throws DocumentException, IOException, XmlException {
 		return readWordToJson(inputUrl, false);
 	}
@@ -37,7 +37,7 @@ public class OfficePOITools {
 	 * @throws IOException
 	 * @throws XmlException
 	 */
-	public static String readWordToJson(String inputUrl, boolean editCfg) throws DocumentException, IOException, XmlException {
+	public String readWordToJson(String inputUrl, boolean editCfg) throws DocumentException, IOException, XmlException {
 		BillUnit BillUnit = new BillUnit();
 		// 获取word文档解析对象
 		XWPFDocument doucument = new XWPFDocument(POIXMLDocument.openPackage(inputUrl));
@@ -61,7 +61,7 @@ public class OfficePOITools {
 	 * @param BillUnit  将传入的特定数据
 	 * @throws Exception
 	 */
-	public static void writeWordToData(String inputUrl, String outputUrl, BillUnit BillUnit, boolean showOpTitle)
+	public void writeWordToData(String inputUrl, String outputUrl, BillUnit BillUnit, boolean showOpTitle)
 			throws Exception {
 		// 获取word文档解析对象
 		XWPFDocument document = new XWPFDocument(POIXMLDocument.openPackage(inputUrl));
